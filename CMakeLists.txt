@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.22.1)
+project(mycfd)
+add_executable(exp1 ../src/nonviscouslaminar_exp1.cpp) 
+add_executable(exp2 ../src/nonviscouslaminar_exp2.cpp) 
+add_executable(exp3 ../src/nonviscouslaminar_exp3.cpp)
+add_executable(exp4 ../src/nonviscouslaminar_exp4.cpp)
+add_executable(exp5 ../src/nonviscouslaminar_exp5.cpp) 
